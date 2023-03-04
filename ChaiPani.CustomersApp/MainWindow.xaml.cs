@@ -24,5 +24,11 @@ namespace ChaiPani.CustomersApp
         {
             InitializeComponent();
         }
+
+        private void AddCustomerButton_Click(object sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show("Customer added.");
+            btnAddCustomer.Content = "Customer added";
+        }
     }
 }

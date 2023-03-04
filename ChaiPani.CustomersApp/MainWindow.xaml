@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" FontSize="20">
     <Grid>
-        <Button Content="Add Customer"></Button>
+        <Button Content="Add Customer"
+                x:Name="btnAddCustomer"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="10"
+                Click="AddCustomerButton_Click"></Button>
     </Grid>
 </Window>
